@@ -4,6 +4,10 @@ html, body {
     padding: 0;
 }
 
+.done {
+    text-decoration: line-through;
+}
+
 header {
     margin: 0 auto;
     width: 30%;
