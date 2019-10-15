@@ -4,6 +4,7 @@ html, body {
     padding: 0;
 }
 
+/* Element of the list marked as done */
 .done {
     text-decoration: line-through;
 }
