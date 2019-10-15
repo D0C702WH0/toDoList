@@ -13,6 +13,8 @@ changeDoneClassState(element);
  */
 const changeDoneClassState = (element) => {
     const doneClass = "done";
+    if (element === null) return;
+    
     if (element.classList.value === "") {
         element.classList.add(doneClass)
     } else {
